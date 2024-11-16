@@ -38,3 +38,26 @@ Skipping the "Message" Button:
 If a profile shows a "Message" button, I ensure the script skips that profile and does not attempt to send a connection request.
 
 If the connection requests on the current page are finished, the extension will automatically move to the next page and repeat the process.
+Installation:
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-repo-link/salesrobot-chrome-extension.git
+Load the extension in Chrome:
+
+Open Chrome, navigate to chrome://extensions/.
+Enable "Developer mode" in the top right corner.
+Click "Load unpacked" and select the directory where you cloned the repo.
+Activate the extension:
+
+Once installed, you'll see the extension icon in your Chrome toolbar. Click it to start sending connection requests.
+Search LinkedIn:
+
+Go to LinkedIn and search for people, for example, "CEOs in Bangalore."
+The extension will start sending connection requests automatically on the first page.
+How to Use:
+Open LinkedIn and perform a search.
+Click on the extension icon to start sending connection requests.
+The extension will loop through the search results and click "Connect" on available profiles.
+After finishing requests on the first page, it will automatically move to the next page.
